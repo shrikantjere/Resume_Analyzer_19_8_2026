@@ -1,0 +1,170 @@
+[
+  {
+    "title": "Software Engineer",
+    "industry": "Technology",
+    "required_skills": ["Python", "Java", "SQL", "Git", "Data Structures", "Algorithms", "REST APIs", "Agile"],
+    "preferred_skills": ["Docker", "Kubernetes", "AWS", "Microservices"],
+    "experience_level": "Mid",
+    "description": "Design, develop, and maintain software applications. Collaborate with cross-functional teams to deliver high-quality code."
+  },
+  {
+    "title": "Data Scientist",
+    "industry": "Technology",
+    "required_skills": ["Python", "SQL", "Machine Learning", "Statistics", "Data Visualization", "Deep Learning", "R", "TensorFlow"],
+    "preferred_skills": ["PyTorch", "Spark", "NLP", "Computer Vision"],
+    "experience_level": "Mid",
+    "description": "Analyze complex data sets to drive business decisions. Build predictive models and communicate insights to stakeholders."
+  },
+  {
+    "title": "Frontend Developer",
+    "industry": "Technology",
+    "required_skills": ["JavaScript", "HTML", "CSS", "React", "TypeScript", "Git", "REST APIs", "Responsive Design"],
+    "preferred_skills": ["Next.js", "Vue.js", "Testing", "GraphQL"],
+    "experience_level": "Mid",
+    "description": "Build responsive and interactive user interfaces. Optimize web applications for performance and accessibility."
+  },
+  {
+    "title": "Backend Developer",
+    "industry": "Technology",
+    "required_skills": ["Python", "Java", "SQL", "REST APIs", "Docker", "Git", "AWS", "PostgreSQL"],
+    "preferred_skills": ["Kubernetes", "Redis", "GraphQL", "Microservices"],
+    "experience_level": "Mid",
+    "description": "Build and maintain server-side applications and APIs. Design scalable backend architectures."
+  },
+  {
+    "title": "DevOps Engineer",
+    "industry": "Technology",
+    "required_skills": ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux", "Python", "Git", "Terraform"],
+    "preferred_skills": ["Ansible", "Jenkins", "Monitoring", "Azure"],
+    "experience_level": "Senior",
+    "description": "Manage infrastructure and deployment pipelines. Automate operations and ensure system reliability."
+  },
+  {
+    "title": "Data Analyst",
+    "industry": "Technology",
+    "required_skills": ["SQL", "Python", "Excel", "Data Visualization", "Statistics", "Tableau", "Power BI"],
+    "preferred_skills": ["R", "Looker", "A/B Testing"],
+    "experience_level": "Entry",
+    "description": "Analyze data and create reports to support business decisions. Identify trends and patterns in data."
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "industry": "Technology",
+    "required_skills": ["Python", "Machine Learning", "Deep Learning", "TensorFlow", "PyTorch", "SQL", "Docker", "AWS"],
+    "preferred_skills": ["Kubernetes", "MLflow", "Spark", "NLP"],
+    "experience_level": "Senior",
+    "description": "Design and deploy machine learning models at scale. Build ML pipelines and production systems."
+  },
+  {
+    "title": "Product Manager",
+    "industry": "Technology",
+    "required_skills": ["Product Strategy", "Agile", "Data Analysis", "User Research", "A/B Testing", "SQL", "Roadmapping"],
+    "preferred_skills": ["Technical Background", "UX Design", "Market Research"],
+    "experience_level": "Senior",
+    "description": "Define product vision and strategy. Work with engineering and design to deliver customer value."
+  },
+  {
+    "title": "UX Designer",
+    "industry": "Design",
+    "required_skills": ["User Research", "Wireframing", "Prototyping", "Figma", "UI Design", "Usability Testing", "Design Systems"],
+    "preferred_skills": ["Motion Design", "HTML/CSS", "Accessibility"],
+    "experience_level": "Mid",
+    "description": "Design intuitive user experiences for digital products. Conduct user research and create prototypes."
+  },
+  {
+    "title": "Full Stack Developer",
+    "industry": "Technology",
+    "required_skills": ["JavaScript", "Python", "React", "Node.js", "SQL", "Git", "REST APIs", "AWS", "Docker"],
+    "preferred_skills": ["TypeScript", "GraphQL", "Kubernetes", "MongoDB"],
+    "experience_level": "Mid",
+    "description": "Build end-to-end features across frontend and backend. Own full application lifecycle."
+  },
+  {
+    "title": "Cloud Architect",
+    "industry": "Technology",
+    "required_skills": ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Terraform", "Networking", "Security"],
+    "preferred_skills": ["TOGAF", "Cost Optimization", "Migration"],
+    "experience_level": "Senior",
+    "description": "Design and implement cloud infrastructure solutions. Guide cloud adoption strategy."
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "industry": "Technology",
+    "required_skills": ["Network Security", "Python", "Linux", "SIEM", "Penetration Testing", "Firewalls", "Risk Assessment"],
+    "preferred_skills": ["CISSP", "CEH", "Forensics", "Cloud Security"],
+    "experience_level": "Mid",
+    "description": "Protect organizational systems and data from security threats. Conduct security assessments."
+  },
+  {
+    "title": "Business Analyst",
+    "industry": "Business",
+    "required_skills": ["SQL", "Excel", "Data Analysis", "Requirements Gathering", "Process Modeling", "Agile", "Stakeholder Management"],
+    "preferred_skills": ["Tableau", "JIRA", "BPMN", "UML"],
+    "experience_level": "Mid",
+    "description": "Bridge the gap between business needs and technology solutions. Analyze and document requirements."
+  },
+  {
+    "title": "Data Engineer",
+    "industry": "Technology",
+    "required_skills": ["Python", "SQL", "ETL", "Apache Spark", "AWS", "Docker", "Data Warehousing", "Airflow"],
+    "preferred_skills": ["Kafka", "Snowflake", "dbt", "BigQuery"],
+    "experience_level": "Mid",
+    "description": "Build and maintain data pipelines and infrastructure. Ensure data quality and reliability."
+  },
+  {
+    "title": "Mobile Developer",
+    "industry": "Technology",
+    "required_skills": ["Swift", "Kotlin", "iOS", "Android", "Git", "REST APIs", "Firebase", "UI Design"],
+    "preferred_skills": ["Flutter", "React Native", "CI/CD", "App Store"],
+    "experience_level": "Mid",
+    "description": "Develop mobile applications for iOS and Android platforms. Deliver polished user experiences."
+  },
+  {
+    "title": "AI Engineer",
+    "industry": "Technology",
+    "required_skills": ["Python", "Machine Learning", "NLP", "Computer Vision", "TensorFlow", "PyTorch", "Docker", "AWS"],
+    "preferred_skills": ["LangChain", "Vector Databases", "LLMs", "RAG"],
+    "experience_level": "Senior",
+    "description": "Build and deploy AI-powered applications and services. Integrate LLMs and AI capabilities."
+  },
+  {
+    "title": "IT Support Specialist",
+    "industry": "Technology",
+    "required_skills": ["Networking", "Windows", "Linux", "Troubleshooting", "Customer Service", "Active Directory", "Hardware"],
+    "preferred_skills": ["ITIL", "Cloud", "Scripting"],
+    "experience_level": "Entry",
+    "description": "Provide technical support and maintain IT infrastructure. Resolve hardware and software issues."
+  },
+  {
+    "title": "Database Administrator",
+    "industry": "Technology",
+    "required_skills": ["SQL", "PostgreSQL", "MySQL", "Database Design", "Performance Tuning", "Backup", "Security"],
+    "preferred_skills": ["MongoDB", "Redis", "Cloud DB", "Automation"],
+    "experience_level": "Mid",
+    "description": "Manage and maintain database systems. Ensure data availability and performance."
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "industry": "Technology",
+    "required_skills": ["Linux", "Python", "Kubernetes", "Docker", "AWS", "Monitoring", "CI/CD", "Incident Response"],
+    "preferred_skills": ["Go", "Terraform", "Prometheus", "Chaos Engineering"],
+    "experience_level": "Senior",
+    "description": "Ensure reliability and performance of production systems. Build observability and automation."
+  },
+  {
+    "title": "Engineering Manager",
+    "industry": "Technology",
+    "required_skills": ["Team Leadership", "Agile", "Project Management", "Code Review", "Architecture", "Mentoring", "Strategic Planning"],
+    "preferred_skills": ["Budgeting", "Hiring", "Technical Strategy"],
+    "experience_level": "Lead",
+    "description": "Lead engineering teams to deliver high-quality software products. Coach and develop engineers."
+  },
+  {
+    "title": "Solutions Architect",
+    "industry": "Technology",
+    "required_skills": ["System Design", "AWS", "Microservices", "API Design", "Security", "Database Design", "Cloud Architecture"],
+    "preferred_skills": ["TOGAF", "Event-Driven", "Domain Driven Design"],
+    "experience_level": "Senior",
+    "description": "Design and oversee implementation of technical solutions. Ensure architectural integrity."
+  }
+]

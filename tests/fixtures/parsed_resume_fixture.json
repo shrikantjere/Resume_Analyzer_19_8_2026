@@ -1,0 +1,60 @@
+{
+  "name": "John Doe",
+  "email": "john.doe@email.com",
+  "phone": "555-123-4567",
+  "location": "San Francisco, CA",
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "institution": "University of California",
+      "field_of_study": "Computer Science",
+      "start_date": "2013",
+      "end_date": "2017",
+      "gpa": "3.7",
+      "achievements": ["Dean's List"]
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Tech Corp",
+      "start_date": "2020-01",
+      "end_date": "Present",
+      "description": "Led development of microservices architecture serving 1M+ users",
+      "achievements": [
+        "Improved API response time by 40%",
+        "Mentored 3 junior developers"
+      ],
+      "is_current": true
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Startup Inc",
+      "start_date": "2017-06",
+      "end_date": "2019-12",
+      "description": "Built RESTful APIs using Python and Flask",
+      "achievements": [
+        "Implemented CI/CD pipeline reducing deployment time by 60%"
+      ],
+      "is_current": false
+    }
+  ],
+  "skills": {
+    "technical": ["Python", "Django", "Flask", "PostgreSQL", "MySQL", "AWS", "Docker", "Git", "REST APIs", "JavaScript", "React", "TypeScript", "Redis"],
+    "soft": ["Team Leadership", "Mentoring", "Communication", "Problem Solving", "Agile"]
+  },
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "description": "Built full-stack application using Django and React",
+      "technologies": ["Django", "React", "PostgreSQL"],
+      "url": null
+    },
+    {
+      "name": "Task Manager API",
+      "description": "Developed REST API with Flask and PostgreSQL",
+      "technologies": ["Flask", "PostgreSQL", "Docker"],
+      "url": null
+    }
+  ]
+}

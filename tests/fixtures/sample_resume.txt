@@ -1,0 +1,33 @@
+John Doe
+john.doe@email.com | (555) 123-4567 | San Francisco, CA
+
+SUMMARY
+Experienced software engineer with 5+ years building scalable web applications.
+
+EXPERIENCE
+Senior Software Engineer | Tech Corp | Jan 2020 - Present
+- Led development of microservices architecture serving 1M+ users
+- Improved API response time by 40% through caching optimization
+- Mentored 3 junior developers
+- Tech stack: Python, Django, PostgreSQL, AWS, Docker
+
+Software Engineer | Startup Inc | Jun 2017 - Dec 2019
+- Built RESTful APIs using Python and Flask
+- Implemented CI/CD pipeline reducing deployment time by 60%
+- Collaborated on database migration from MySQL to PostgreSQL
+
+EDUCATION
+B.S. Computer Science | University of California | 2013 - 2017
+- GPA: 3.7/4.0
+- Dean's List
+
+SKILLS
+Technical: Python, Django, Flask, PostgreSQL, MySQL, AWS, Docker, Git, REST APIs, JavaScript, React, TypeScript, Redis
+Soft Skills: Team Leadership, Mentoring, Communication, Problem Solving, Agile
+
+PROJECTS
+E-commerce Platform: Built full-stack application using Django and React
+Task Manager: Developed REST API with Flask and PostgreSQL
+
+CERTIFICATIONS
+AWS Certified Solutions Architect
