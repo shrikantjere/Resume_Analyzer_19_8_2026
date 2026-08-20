@@ -130,7 +130,7 @@ class JobFilter(BaseModel):
     locations: list[str] = Field(default_factory=list, description="Locations to include")
     remote_only: bool = Field(default=False, description="Only show remote jobs")
     min_match_percentage: float = Field(
-        default=30.0,
+        default=10.0,
         ge=0.0, le=100.0,
         description="Minimum match percentage",
     )

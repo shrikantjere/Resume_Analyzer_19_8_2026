@@ -108,8 +108,7 @@ def _handle_file_upload(uploaded_file) -> None:
             st.session_state["current_page"] = "analysis"
 
             progress_placeholder.empty()
-            st.success("✅ Analysis complete! View your results below.")
-            st.page_link("pages/2_analysis_results.py", label="📊 View Analysis Results")
+            st.success("✅ Analysis complete! Navigate to Analysis Results using the sidebar.")
 
         except UnsupportedFileTypeError as e:
             render_upload_error(str(e))
@@ -153,8 +152,7 @@ def _handle_text_analysis(resume_text: str) -> None:
         st.session_state["current_page"] = "analysis"
 
         progress_placeholder.empty()
-        st.success("✅ Analysis complete! View your results below.")
-        st.page_link("pages/2_analysis_results.py", label="📊 View Analysis Results")
+        st.success("✅ Analysis complete! Navigate to Analysis Results using the sidebar.")
 
     except ResumeAnalyzerError as e:
         render_upload_error(str(e))

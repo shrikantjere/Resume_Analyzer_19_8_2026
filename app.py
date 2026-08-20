@@ -133,29 +133,24 @@ def main() -> None:
 
     # Route to the appropriate page
     if current_page == "upload" or not st.session_state.get("analysis_complete"):
-        from pages import (
-            _1_upload_resume as page_upload,
-        )
+        import importlib
+        page_upload = importlib.import_module("views.1_upload_resume")
         page_upload.run()
     elif current_page == "analysis":
-        from pages import (
-            _2_analysis_results as page_analysis,
-        )
+        import importlib
+        page_analysis = importlib.import_module("views.2_analysis_results")
         page_analysis.run()
     elif current_page == "recommendations":
-        from pages import (
-            _3_job_recommendations as page_recommendations,
-        )
+        import importlib
+        page_recommendations = importlib.import_module("views.3_job_recommendations")
         page_recommendations.run()
     elif current_page == "report":
-        from pages import (
-            _4_report_download as page_report,
-        )
+        import importlib
+        page_report = importlib.import_module("views.4_report_download")
         page_report.run()
     else:
-        from pages import (
-            _1_upload_resume as page_upload,
-        )
+        import importlib
+        page_upload = importlib.import_module("views.1_upload_resume")
         page_upload.run()
 
     # Footer

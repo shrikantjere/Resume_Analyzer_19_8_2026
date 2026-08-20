@@ -28,7 +28,7 @@ def run() -> None:
         )
         if st.button("📤 Go to Upload Page", type="primary"):
             st.session_state["current_page"] = "upload"
-            st.switch_page("pages/1_upload_resume.py")
+            st.rerun()
         return
 
     render_recommendations_page(
@@ -45,13 +45,13 @@ def run() -> None:
     with col1:
         if st.button("◀️ Back to Analysis", use_container_width=True):
             st.session_state["current_page"] = "analysis"
-            st.switch_page("pages/2_analysis_results.py")
+            st.rerun()
     with col2:
         if st.button("🔄 New Analysis", use_container_width=True):
             st.session_state["analysis_complete"] = False
             st.session_state["current_page"] = "upload"
-            st.switch_page("pages/1_upload_resume.py")
+            st.rerun()
     with col3:
         if st.button("📥 Download Report ▶️", type="primary", use_container_width=True):
             st.session_state["current_page"] = "report"
-            st.switch_page("pages/4_report_download.py")
+            st.rerun()

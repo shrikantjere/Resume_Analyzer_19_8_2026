@@ -182,10 +182,14 @@ class JobRecommendationService:
                 required_skills = required_skills_raw
 
             required_normalized = {normalize_skill_name(s) for s in required_skills}
-            preferred_skills = role.get("preferred_skills", [])
 
-            # Compute Jaccard similarity
-            match_percentage = jaccard_similarity(skill_names, required_normalized) * 100.0
+            # Compute match percentage using skills coverage
+            # (matched_skills / required_skills) — more intuitive than Jaccard
+            if not required_normalized:
+                match_percentage = 0.0
+            else:
+                matched_count = len(skill_names & required_normalized)
+                match_percentage = (matched_count / len(required_normalized)) * 100.0
 
             # Apply experience level penalty
             level_penalty = self._experience_level_penalty(
@@ -198,7 +202,7 @@ class JobRecommendationService:
             if match_percentage < filters.min_match_percentage:
                 continue
 
-            # Find matched and missing skills
+            # Find matched and missing skills (preserve original casing)
             matched = [s for s in required_skills if normalize_skill_name(s) in skill_names]
             missing = [s for s in required_skills if normalize_skill_name(s) not in skill_names]
 

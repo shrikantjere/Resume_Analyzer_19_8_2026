@@ -21,7 +21,7 @@ resume_analyzer/
 ├── pyproject.toml
 ├── README.md
 │
-├── pages/
+├── views/
 │   ├── __init__.py
 │   ├── 1_upload_resume.py
 │   ├── 2_analysis_results.py
@@ -140,8 +140,8 @@ resume_analyzer/
 | Attribute | Detail |
 |---|---|
 | **Purpose** | Application entry point. Bootstraps the Streamlit app, configures global page settings, initializes session state, and registers all page routes. |
-| **Responsibilities** | — Set Streamlit page config (title, layout, icon)<br>— Initialize global session state variables<br>— Mount page modules from `pages/`<br>— Configure logging at startup<br>— Register shutdown hooks for cleanup |
-| **Dependencies** | `pages/.*`, `core/logging_config.py`, `core/config.py`, `core/exceptions.py`, Streamlit |
+| **Responsibilities** | — Set Streamlit page config (title, layout, icon)<br>— Initialize global session state variables<br>— Mount page modules from `views/`<br>— Configure logging at startup<br>— Register shutdown hooks for cleanup |
+| **Dependencies** | `views/.*`, `core/logging_config.py`, `core/config.py`, `core/exceptions.py`, Streamlit |
 | **Imports From** | `core.config → Settings`, `core.logging_config → setup_logging`, `streamlit` |
 
 ### `.env`

@@ -133,7 +133,7 @@ class TestJobModels:
 
     def test_job_filter_defaults(self) -> None:
         filter = JobFilter()
-        assert filter.min_match_percentage == 30.0
+        assert filter.min_match_percentage == 10.0
         assert filter.max_results == 10
         assert filter.remote_only is False
 
